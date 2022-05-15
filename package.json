@@ -1,0 +1,22 @@
+{
+  "name": "justnode",
+  "version": "1.0.0",
+  "description": "Just a simple http server using only Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxfoyster/JustNode.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Mark Foyster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxfoyster/JustNode/issues"
+  },
+  "homepage": "https://github.com/mxfoyster/JustNode#readme"
+}
