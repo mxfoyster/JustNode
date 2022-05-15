@@ -7,12 +7,71 @@ body
 	margin: auto;
 }
 
-.header{
+.grid-container{
+	display: grid;
+}
+
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 0;
+}
+nav > a{
+	flex-wrap: wrap;
+	flex-grow: 1;
 	text-align: center;
+	text-decoration: none;
+	background-color: steelblue;
+	margin-top: 0.5rem;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+	padding:0.4rem;
+	border-radius: 5px;
+	color:white;
+}
+
+.selected{
+	color:red;
+}
+
+.header{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.rightHeader{
+	margin: auto;
+}
+
+.rightHeader > h1{
+	text-align: center;
+	line-height: 0.6em;
+}
+
+.rightHeader > h3{
+	text-align: center;
+	line-height: 0.6em;
+}
+
+.middle{
+	display: block;
+}
+
+.lowerMiddle{
+	margin-top: 2rem;
 }
 
 .footer{
 	text-align: center;
+	display: block;
+}
+
+.vidFrame{
+	display: inline;
+	float: left;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
 }
 
 .sub{
@@ -30,4 +89,15 @@ body
 
 .sadWarning{
 	text-align: center;
+}
+
+.nodeLogo{	
+	display: block;
+}
+
+@media (max-width: 1000px){
+	.vidFrame{
+		display: block;
+		float: none;
+	}
 }

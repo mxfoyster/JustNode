@@ -40,7 +40,7 @@ const server = http.createServer((req, res) => {
   if (contentType == "text/html" && extname == "") filePath += ".html";
 
   // log the filePath
-  console.log(filePath);
+  // console.log(filePath);
 
   // Read File
   fs.readFile(filePath, (err, content) => {
